@@ -1,0 +1,151 @@
+/* default css  */
+
+
+/* header css start  */
+
+header .navbar-nav li:not(:first-child) .nav-link{
+    color: rgba(0, 0, 0, 0.445);
+    font-weight: 500;
+    padding-left: 25px;
+ 
+ }
+
+ .checkbutton{
+         font-size: 28px; 
+ }
+
+ .checkbutton{
+     display: none;
+ }
+
+ header .navbar-nav li:not(:first-child) .nav-link:hover{
+     color: rgba(0, 0, 0, 0.815);
+ }
+
+ /* heder css end  */
+
+
+ /* banner css  */
+ .banner{
+     background-color: #F9F9FF;
+ }
+
+ .banner .name{
+     font-size: 42px;
+     color: #3F454B;
+    
+ }
+
+ .about .name{
+    font-size: 42px;
+    
+ }
+
+ .about .sub-title{
+     letter-spacing: -.5px;
+     font-size: 17px;
+ }
+
+ .service{
+     background-color: #8490FF;
+     color: white;
+     text-align: center;
+ }
+
+ .price{
+     background: #F3F4FD;
+ }
+
+ .price .circle h2 {
+    background: #F3F4FD;
+    width: 70px;
+    height: 70px;
+    margin: auto ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 57px;
+    border-radius: 50%;
+    margin-top: 12px;
+}
+.price ul{
+    
+margin-top: 30px;
+}
+.price ul li{
+    padding-bottom: 36px;
+    font-size: 21px;
+}
+
+.price .btn a {
+    padding: 13px 31px;
+    box-shadow: 2px 2px 20px 0px #8490ff57;
+    border: 2px solid #8490ff;
+    color: #8490ff;
+    font-weight: 600;
+    font-size: 23px;
+    transition: .5s;
+}
+.price .btn a:hover{
+    background: #8490ff;
+    color: white;
+}
+
+.profile{
+    padding: 145px 0 50px 0;
+}
+.profile .title{
+    font-size: 26px;
+    margin-top: -40px;
+}
+.profile img{
+    /* margin-top: -96px; */
+    width: 104px;
+    text-align: left;
+    display: block;
+    margin-left: 14px;
+    position: relative;
+    bottom: 70px;
+}
+.profile .sub-title{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000b8;
+}
+.profile .para{
+    font-size: 17px;
+    padding: 0 31px;
+}
+
+.profile a{
+    text-decoration: none;
+    background: #f3f4fd52;
+    padding: 8px 15px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 38px;
+}
+
+
+/* contuct section css start  */
+
+
+.contuct{
+    background: #F3F4FD;
+}
+
+
+.contuct form a {
+    font-size: 20px;
+    padding: 9px 16px;
+}
+
+.contuct form a{}
+
+.contuct .sub-title{
+    font-size: 21px;
+}
+.contuct input{
+    outline: none;
+}
+ 
